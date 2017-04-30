@@ -13,3 +13,6 @@ if __name__ == '__main__':
     cat = Cat("Snow")
     dog.say_name()
     dog.bark()
+    cat.say_name()
+    cat.mew()
+
