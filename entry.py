@@ -1,6 +1,7 @@
 #!python
 
 from dog import Dog
+from cat import Cat
 
 print("hello")
 
@@ -9,5 +10,6 @@ def f():
 
 if __name__ == '__main__':
     dog = Dog("Rammstein")
+    cat = Cat("Snow")
     dog.say_name()
     dog.bark()
